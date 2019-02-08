@@ -16,8 +16,9 @@ This project will share the demo code we built and the equipment that we used.
 # The Gear
 To build the demo we used drones from  [Bitcraze.io](https://www.bitcraze.io). The drones are [Crazyflie 2.0](https://www.bitcraze.io/crazyflie-2/) drones. ![Crazyflie](https://www.bitcraze.io/images/Crazyflie2.0/Crazyflie2.0-585px.JPG) 
 
-These are open source drones that have a rich API and easy to use programming libraries. And the really cool part is they are extensible with a set of add-on decks. For our demo we used the [LED Ring Deck](https://www.bitcraze.io/led-ring-deck/) to provide the lights on the bottom of the drones. 
- ![LED Ring Deck](https://www.bitcraze.io/images/led-ring/ledring-side.jpg)
+These are open source drones that have a rich API and easy to use programming libraries. And the really cool part is they are extensible with a set of add-on decks. For our demo we used the [LED Ring Deck](https://www.bitcraze.io/led-ring-deck/) to provide the lights on the bottom of the drones.
+
+![LED Ring Deck](https://www.bitcraze.io/images/led-ring/ledring-side.jpg)
 
 To do positioning, we used the [Loco Positioning System](https://www.bitcraze.io/loco-pos-system/). LPS is essentially indoor GPS and allows the drones to fly autonomously and gives us an API to tell them an exact coordinate we want them to fly to.  ![LPS](https://www.bitcraze.io/images/loco-pos-deck/locoPositioning_deck_585px_side.JPG).
 
