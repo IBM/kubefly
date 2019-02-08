@@ -36,7 +36,7 @@ The Drone controller, in the [drone-controller](/drone-controller) folder, is a 
 The Kubernetes Watcher, in the [kube-watcher](/kube-watcher) folder, is a Go program that runs inside Kubernetes. It watches the Kube API server for, events such as Pods starting and stopping, and translates those events into commands for the drones sent to the drone connection. 
 
 ## MyApp
-MyApp, in the [myapp](/app) folder, is a simple demo application you can run on Kubernetes to test things out.
+MyApp, in the [myapp](/myapp) folder, is a simple demo application you can run on Kubernetes to test things out.
 
 # How to Guide
 TODO - We will provide step by step instructions on how to run Kubefly soon :) 
