@@ -22,7 +22,7 @@ These are open source drones that have a rich API and easy to use programming li
 
 To position the drones, we used the [Loco Positioning System](https://www.bitcraze.io/loco-pos-system/). LPS is essentially indoor GPS, allowing the drones to fly autonomously. LPS also provides an API to tell the drones an exact coordinate we want them to fly to.  ![LPS](https://www.bitcraze.io/images/loco-pos-deck/locoPositioning_deck_585px_side.JPG).
 
-In our case we actually bought the [Swarm Bundle](https://store.bitcraze.io/collections/bundles/products/the-swarm-bundle), which provided 10 drones, the Loco Positoning System, and all the parts we needed. 
+In our case we actually bought the [Swarm Bundle](https://store.bitcraze.io/collections/bundles/products/the-swarm-bundle), which provided 10 drones, the Loco Positioning System, and all the parts we needed. 
 
 If you want to start small, you can play with a single Crazyflie drone and the [Flow Deck](https://www.bitcraze.io/flow-deck-v2/). This will allow you to do similar things without the complexity of the full LPS. 
 
@@ -30,7 +30,7 @@ If you want to start small, you can play with a single Crazyflie drone and the [
 Kubefly is made up of two key components, the **Drone Controller** and the **Kubernetes Watcher**.
 
 ## Drone Controller
-The Drone controller, in the [drone-controller](/drone-controller) folder, is a python program that runs on your laptop and connects via radio link directly to the drones. Drone controller will call the kube-watcher API to recieve data about where the drones should be positioned, and then will send commands to the drones based on that data. 
+The Drone controller, in the [drone-controller](/drone-controller) folder, is a python program that runs on your laptop and connects via radio link directly to the drones. Drone controller will call the kube-watcher API to receive data about where the drones should be positioned, and then will send commands to the drones based on that data. 
 
 ## Kubernetes Watcher
 The Kubernetes Watcher, in the [kube-watcher](/kube-watcher) folder, is a Node.js program that runs locally, on your laptop. It uses the Kubernetes API to connect to a Kubernetes cluster and watches for events such as Pods starting and stopping. Kube-watcher then translates those events into positions for the drones sent to the drone connection. In our case we ran Kubernetes on [IBM Cloud](https://cloud.ibm.com) using [IBM Cloud Kubernetes Service (IKS)](http://ibm.com/iks).
