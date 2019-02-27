@@ -11,6 +11,8 @@ The answer was **Drones!!**
 
 Our team at IBM recently built a demo to teach and demonstrate core Kubernetes concepts using a swarm of flying drones. The drones showcase concepts like pods, replica sets, deployments, and stateful sets.  Once you apply your Kubernetes Deployment describing an application, you'll see a few drones take off -- each one representing a pod in the deployment. If one of the kubernetes pods is killed, you'll see the drone land, and another will take its place, as Kubernetes' declarative model will always attempt to match the desired state.
 
+If you would like to learn a little more, or see a video of the drones in action, check out our [blog](https://developer.ibm.com/blogs/flying-kubernetes-using-drones-to-explain-key-kubernetes-concepts/).
+
 This project will share the demo code we built and the equipment that we used.
 
 # The Gear
