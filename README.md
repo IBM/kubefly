@@ -39,6 +39,3 @@ The Kubernetes Watcher, in the [kube-watcher](/kube-watcher) folder, is a Node.j
 
 ## MyApp
 MyApp, in the [myapp](/myapp) folder, is a simple demo application you can run on Kubernetes to test things out.
-
-# How to Guide
-TODO - We will provide step by step instructions on how to run Kubefly soon :) 
